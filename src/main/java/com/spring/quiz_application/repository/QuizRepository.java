@@ -1,10 +1,11 @@
 package com.spring.quiz_application.repository;
 
 import com.spring.quiz_application.model.QuizQuestion;
+import com.spring.quiz_application.repository.QuizRepository;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import javax.swing.tree.RowMapper;
 import java.util.List;
 import java.util.Optional;
 
